@@ -5,8 +5,14 @@
 	"description":"An extension to search the web for the best price for an item.",
 	"browser_action":
 	{
-		"default_icon":"icon.png"
-	}
-
-
+		"default_icon":"icon.png",
+		"default_title":"Bargain Hunter",
+		"default_popup":"popup.html"
+	},
+	"permissions":
+	[
+		"activeTab",
+		"https://ajax.googleapis.com/",
+		"<all_urls>"
+	]
 }
