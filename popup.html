@@ -1,0 +1,33 @@
+<!doctype html>
+<!--
+ This page is shown when the extension button is clicked, because the
+ "browser_action" field in manifest.json contains the "default_popup" key with
+ value "popup.html".
+ -->
+<html>
+  <head>
+    <title>
+      Bargain Hunter
+    </title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <!--
+      - JavaScript and HTML must be in separate files: see our Content Security
+      - Policy documentation[1] for details and explanation.
+      -
+      - [1]: https://developer.chrome.com/extensions/contentSecurityPolicy
+     -->
+  </head>
+  <body>
+    <div>
+      <div class="center">
+        <p id="title_id">
+          Bargain Hunter
+        <p>
+      </div>
+      <div class="center" id="icon_div">
+        <img src="icon.png" id="icon_pic"/>
+      </div>
+    </div>
+  </body>
+</html>
+
