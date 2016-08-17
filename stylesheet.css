@@ -1,22 +1,24 @@
-
+html
+{
+	background-image: url("background.jpg");
+}
 
 body 
 {
-	min-width: 300px;
-	max-width: 400px;
-	min-height: 300px;
-	max-height: 400px;
+	min-width: 200px;
+	max-width: 300px;
+	min-height: 200px;
+	max-height: 300px;
     font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
     font-size: 100%;
 }
 
-#status 
+#top_half_container
 {
-	/* avoid an excessively wide status text */
-	white-space: pre;
-	text-overflow: ellipsis;
-	overflow: hidden;
-	max-width: 400px;
+}
+
+#bottom_half_container
+{
 }
 
 #title_id
@@ -27,7 +29,8 @@ body
 
 #icon_div
 {
-	top: -10px;
+	top: -4vw;
+	background-color: transparent;
 }
 
 #icon_pic
@@ -36,8 +39,27 @@ body
 	height: 20vw;
 }
 
+#product_div
+{
+	bottom: 4vw;
+}
+
+#product_label
+{
+	font-size: 6vw;
+}
+
 div.center
 {
 	text-align: center;
 	position: relative;
+}
+
+div.dotted
+{
+	border: 1vw black;
+	border-style: none none dashed;
+	color: black;
+	background-color: #fff;
+	padding-bottom: 5vw;
 }
