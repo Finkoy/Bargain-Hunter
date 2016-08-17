@@ -7,7 +7,7 @@ body
 {
 	min-width: 200px;
 	max-width: 300px;
-	min-height: 200px;
+	min-height: 215px;
 	max-height: 300px;
     font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
     font-size: 100%;
@@ -48,6 +48,64 @@ body
 {
 	font-size: 6vw;
 }
+
+#search_field
+{
+	height: 9vw;
+	font-size: 7vw;
+}
+
+#button_div
+{
+	bottom: -4vw;
+}
+
+.button 
+{
+	-moz-box-shadow: 0vw 1vw 0vw 0vw #1c1b18;
+	-webkit-box-shadow: 0vw 1vw 0vw 0vw #1c1b18;
+	box-shadow: 0px 1vw 0px 0px #1c1b18;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #eae0c2), color-stop(1, #ccc2a6));
+	background:-moz-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
+	background:-webkit-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
+	background:-o-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
+	background:-ms-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
+	background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#eae0c2', endColorstr='#ccc2a6',GradientType=0);
+	background-color:#eae0c2;
+	-moz-border-radius:8vw;
+	-webkit-border-radius:8vw;
+	border-radius:8vw;
+	border:1vw solid #333029;
+	display:inline-block;
+	cursor:pointer;
+	color:black;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:3vw 4vw;
+	text-decoration:none;
+	text-shadow:0vw 1vw 0vw #ffffff;
+}
+
+.button:hover 
+{
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ccc2a6), color-stop(1, #eae0c2));
+	background:-moz-linear-gradient(top, #ccc2a6 5%, #eae0c2 100%);
+	background:-webkit-linear-gradient(top, #ccc2a6 5%, #eae0c2 100%);
+	background:-o-linear-gradient(top, #ccc2a6 5%, #eae0c2 100%);
+	background:-ms-linear-gradient(top, #ccc2a6 5%, #eae0c2 100%);
+	background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ccc2a6', endColorstr='#eae0c2',GradientType=0);
+	background-color:#ccc2a6;
+}
+
+.button:active 
+{
+	position:relative;
+	top:1vw;
+}
+
 
 div.center
 {
