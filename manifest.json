@@ -12,7 +12,9 @@
 	"permissions":
 	[
 		"activeTab",
+		"https://*.google.com/*",
 		"https://ajax.googleapis.com/",
 		"<all_urls>"
-	]
+	],
+	"content_security_policy": "script-src 'self' https://www.google.com; object-src 'self'"
 }
